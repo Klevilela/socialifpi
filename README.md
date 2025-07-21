@@ -2,6 +2,11 @@
 
 Este documento detalha a instalação, execuçaõ e uso da API
 
+
+## Equipe
+Roniel, Vinicius Santiago e Kleberson
+Link do vídeo demonstrativo da aplicação: https://mega.nz/file/cgtXwYbD#nSokPycoUBIwC_VXYfl6-vKnDCWo1Az47GfHJO3uGdg
+
 ## Requisitos
 - Node.js
 - TypeScript
@@ -9,8 +14,13 @@ Este documento detalha a instalação, execuçaõ e uso da API
 
 ## Instalando dependências
 ```bash
+npm install reflect-metadata
+npm install typeorm@0.3.12
 npm install express typeorm reflect-metadata pg
 npm install -D typescript ts-node-dev @types/node @types/express
+npm install cors
+npm install --save-dev @types/cors
+npm install --save-dev typescript@4.9.5
 
 ```
 ## Criando o arquivo tsconfig.json
